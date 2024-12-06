@@ -15,9 +15,12 @@ cosmocloud-deploy/ -- This is your Helm chart
 - ├── values.yaml -- Configuration values
 - ├── README.md -- Documentation
 - └── templates/ -- Kubernetes manifests
-- ├── deployment-backend.yaml
-- ├── deployment-frontend.yaml
-- └── deployment-redis.yaml
+- ├── backend-deployment.yaml
+- ├── backend-service.yaml
+- ├── frontend-deployment.yaml
+- ├── frontend-service.yaml
+- ├── redis-deployment.yaml
+- └── redis-service.yaml
 
 ## Pre-requisites
 - minikube
