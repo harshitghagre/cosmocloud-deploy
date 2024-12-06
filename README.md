@@ -11,13 +11,13 @@ This Helm chart deploys a three-tier application stack consisting of a Frontend,
 ## Helm Chart Structure
 
 cosmocloud-deploy/ -- This is your Helm chart
-├── Chart.yaml -- Chart metadata
-├── values.yaml -- Configuration values
-├── README.md -- Documentation
-└── templates/ -- Kubernetes manifests
-├── deployment-backend.yaml
-├── deployment-frontend.yaml
-└── deployment-redis.yaml
+- ├── Chart.yaml -- Chart metadata
+- ├── values.yaml -- Configuration values
+- ├── README.md -- Documentation
+- └── templates/ -- Kubernetes manifests
+- ├── deployment-backend.yaml
+- ├── deployment-frontend.yaml
+- └── deployment-redis.yaml
 
 ## Pre-requisites
 - minikube
