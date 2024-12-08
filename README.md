@@ -31,8 +31,8 @@ cosmocloud-deploy/
 
 ## Installation
 
-To install the chart with the release name `testapp`:
-helm install testapp ./cosmocloud-deploy --atomic --timeout 30s
+To install the chart with the release name `testapp`: 
+``` helm install testapp ./cosmocloud-deploy --atomic --timeout 30s```
 
 This command will deploy the application stack in your Kubernetes cluster. The `--atomic` flag ensures that the installation process is rolled back if it fails, and the `--timeout` flag sets the maximum time for the installation process.
 
@@ -77,7 +77,7 @@ The application stack consists of three main components:
 ## Testing
 
 To test the deployment, you can use the following command:
-helm test testapp
+```helm test testapp```
 
 
 This will run a series of tests to ensure that all services are accessible and functioning correctly.
@@ -85,7 +85,7 @@ This will run a series of tests to ensure that all services are accessible and f
 ## Accessing the Application
 
 Once the chart is deployed, you can access the frontend application using the following command:
-minikube service frontend-svc
+```minikube service frontend-svc```
 
 or
 ~ run minikube ip then access the application using http://<minikube-ip>:31000
@@ -93,6 +93,6 @@ or
 ## Uninstallation
 
 To uninstall the `testapp` release:
-helm uninstall testapp
+```helm uninstall testapp```
 
 This command will remove all the Kubernetes resources associated with the release.
