@@ -10,6 +10,7 @@ This Helm chart deploys a three-tier application stack consisting of a Frontend,
 
 ## Helm Chart Structure
 
+```
 cosmocloud-deploy/
 ├── Chart.yaml               # Helm chart metadata
 ├── README.md                # Project documentation (this file!)
