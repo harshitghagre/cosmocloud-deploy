@@ -23,7 +23,7 @@ cosmocloud-deploy/
 │   ├── redis-deployment.yaml
 │   └── redis-service.yaml
 └── values.yaml              # Configuration values for the chart
-
+```
 ## Pre-requisites
 - minikube
 - kubctl 
