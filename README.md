@@ -77,6 +77,7 @@ The application stack consists of three main components:
 To test the deployment, you can use the following command:
 helm test testapp
 
+
 This will run a series of tests to ensure that all services are accessible and functioning correctly.
 
 ## Accessing the Application
